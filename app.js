@@ -15,7 +15,7 @@ app.use(cors({
     //For single frontend use the origin as
     // origint:process.env.FRONTEND_URL,  
     //For multiple frontend use the array
-    origin:process.env.FRONTEND_URL,
+    origin:"https://jobportalfrontend-1-0zvc.onrender.com",
     methods:["GET","POST","DELETE","PUT"],
     credentials:true,
     allowedHeaders: ['Content-Type', 'Authorization'],
