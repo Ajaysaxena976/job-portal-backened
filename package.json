@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "main": "index.js",
   "type":"module",
-
+ "author": {
+    "name": "Ajaysaxena976",
+    "email": "ajaysa9760@gmail.com"
+  },
   "scripts": {
     "start":"node server.js",
     "dev":"nodemon server.js"
   },
-  "author": "",
+ 
   "license": "ISC",
   "description": "",
   "dependencies": {
